@@ -1,0 +1,13 @@
+{
+  "name": "now-counter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently 'tsc -w' 'nodemon dist/index.js'"
+  },
+  "dependencies": {
+    "concurrently": "^5.0.2",
+    "nodemon": "^2.0.2"
+  }
+}
